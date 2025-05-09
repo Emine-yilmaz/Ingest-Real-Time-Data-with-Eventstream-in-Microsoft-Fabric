@@ -55,8 +55,6 @@ Now that you have a workspace, you can start creating the Fabric items you’ll 
 2.  Name the source `Bicycles`, and select the **Bicycles** sample data.
     *Your stream will be mapped and you will be automatically displayed on the **eventstream canvas**.*
 
-    ![Eventstream canvas with Bicycles sample data source](docs/images/eventstream_source_canvas.png)
-    *Note: Replace `docs/images/eventstream_source_canvas.png` with an actual screenshot if creating a live repository.*
 
 ### 5. Add a Destination
 
@@ -73,9 +71,6 @@ Now that you have a workspace, you can start creating the Fabric items you’ll 
 4.  On the toolbar, select **Publish**.
 
     *Wait a minute or so for the data destination to become active. Then select the `bikes-table` node in the design canvas and view the **Data preview** pane underneath to see the latest data that has been ingested:*
-
-    ![Eventstream canvas with Eventhouse destination and data preview](docs/images/eventstream_destination_preview.png)
-    *Note: Replace `docs/images/eventstream_destination_preview.png` with an actual screenshot if creating a live repository.*
 
     *Wait a few minutes and then use the **Refresh** button to refresh the **Data preview** pane. The stream is running perpetually, so new data may have been added to the table.*
     *Beneath the eventstream design canvas, view the **Data insights** tab to see details of the data events that have been captured.*
@@ -104,10 +99,6 @@ The data you’ve captured is unaltered from the source. In many scenarios, you 
 1.  In the menu bar on the left, select the `Bicycle-data` eventstream.
 2.  On the toolbar, select **Edit** to edit the eventstream.
 3.  In the **Transform events** menu, select **Group by** to add a new **Group by** node to the eventstream.
-
-    ![Eventstream canvas with Group by transformation node](docs/images/eventstream_groupby_node.png)
-    *Note: Replace `docs/images/eventstream_groupby_node.png` with an actual screenshot if creating a live repository.*
-
 4.  Drag a connection from the output of the **Bicycle-data** node to the input of the new **Group by** node. Then use the **pencil** icon in the **Group by** node to edit it.
 
 5.  Configure the properties of the **Group by** settings section:
@@ -135,8 +126,7 @@ The data you’ve captured is unaltered from the source. In many scenarios, you 
 
     *In the design canvas, select the `bikes-by-street-table` node, and view the **data preview** pane beneath the canvas.*
 
-    ![Eventstream canvas with transformed data destination and data preview](docs/images/eventstream_transformed_data_preview.png)
-    *Note: Replace `docs/images/eventstream_transformed_data_preview.png` with an actual screenshot if creating a live repository.*
+   
 
     *Note that the transformed data includes the grouping field you specified (Street), the aggregation you specified (SUM_No_Bikes), and a timestamp field indicating the end of the 5 second tumbling window in which the event occurred (Window_End_Time).*
 
@@ -169,6 +159,20 @@ Now you can query the bicycle data that has been transformed and loaded into a t
 In this exercise, you have created an eventhouse and populated tables in its database by using an eventstream.
 
 When you’ve finished exploring your KQL database, you can delete the workspace you created for this exercise.
+
+![](week6:lab9/s1)
+![](week6:lab9/s2)
+![](week6:lab9/s3)
+![](week6:lab9/s4)
+![](week6:lab9/s5)
+![](week6:lab9/s6)
+![](week6:lab9/s7)
+![](week6:lab9/s8)
+![](week6:lab9/s9)
+![](week6:lab9/s10)
+![](week6:lab9/s11)
+![](week6:lab9/s12)
+
 
 1.  In the bar on the left, select the icon for your workspace.
 2.  In the toolbar, select **Workspace settings**.
