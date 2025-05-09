@@ -160,18 +160,18 @@ In this exercise, you have created an eventhouse and populated tables in its dat
 
 When you’ve finished exploring your KQL database, you can delete the workspace you created for this exercise.
 
-![](week6:lab9/s1)
-![](week6:lab9/s2)
-![](week6:lab9/s3)
-![](week6:lab9/s4)
-![](week6:lab9/s5)
-![](week6:lab9/s6)
-![](week6:lab9/s7)
-![](week6:lab9/s8)
-![](week6:lab9/s9)
-![](week6:lab9/s10)
-![](week6:lab9/s11)
-![](week6:lab9/s12)
+![](week6:lab9/s1.png)
+![](week6:lab9/s2.png)
+![](week6:lab9/s3.png)
+![](week6:lab9/s4.png)
+![](week6:lab9/s5.png)
+![](week6:lab9/s6.png)
+![](week6:lab9/s7.png)
+![](week6:lab9/s8.png)
+![](week6:lab9/s9.png)
+![](week6:lab9/s10.png)
+![](week6:lab9/s11.png)
+![](week6:lab9/s12.png)
 
 
 1.  In the bar on the left, select the icon for your workspace.
